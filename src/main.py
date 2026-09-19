@@ -92,7 +92,7 @@ def run_block_4():
     print(f"Перевірка повної групи: P(Correct) + P(Error) = {p_correct + p_error:.1f}\n")
 
 if __name__ == "__main__":
-    run_block_1()    run_block_1()    # Фіксуємо seed для відтворюваності, або можна прибрати для випадковості
+    # Фіксуємо seed для відтворюваності, або можна прибрати для випадковості
     random.seed(42)
     run_block_1()
     run_block_3()
